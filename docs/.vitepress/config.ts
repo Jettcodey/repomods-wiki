@@ -44,6 +44,8 @@ export default defineConfig({
         items: [
           { text: "Overview", link: "/overview" },
           { text: "Developing Mods", link: "/develop" },
+          { text: "HarmonyX Project Setup", link: "/harmonyx" },
+          { text: "Unity Project Setup", link: "/unity" },
         ],
       },
       {

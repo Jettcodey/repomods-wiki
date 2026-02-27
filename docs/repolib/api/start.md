@@ -1,8 +1,8 @@
 # Getting Started with REPOLib (C#)
 
 ::: info NOTE
-This page assumes you have a C# project setup for R.E.P.O. modding.\
-If not, first follow the guide in [Developing Mods](../../develop.md).
+This page assumes you have a Harmony project setup for R.E.P.O. modding.\
+If not, first follow the guide in [Harmony Project Setup](../../harmonyx.md).
 :::
 ## Installation
 
@@ -29,4 +29,4 @@ public class YourMod : BaseUnityPlugin
 }
 ```
 
-You are now ready to start coding!
+You are now ready to start coding using REPOLib!

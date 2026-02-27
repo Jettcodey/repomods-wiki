@@ -36,4 +36,4 @@ Head to the [`#support`](https://discord.com/channels/1344557689979670578/134708
 ## Developing Mods for R.E.P.O.
 
 Interested in creating your own mods for R.E.P.O.?\
-You can start by following the steps outlined in the [Developing Mods Guide](./develop.md) to get started!
+You can start by looking at the what Method outlined in the [Developing Mods Page](./develop.md) fit your needs!
