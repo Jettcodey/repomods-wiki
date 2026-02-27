@@ -4,6 +4,7 @@
 This page assumes you have a Harmony project setup for R.E.P.O. modding.\
 If not, first follow the guide in [Harmony Project Setup](../../harmonyx.md).
 :::
+
 ## Installation
 
 Reference [REPOLib](https://www.nuget.org/packages/Zehs.REPOLib) in your project's `.csproj` file:

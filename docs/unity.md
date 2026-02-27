@@ -72,4 +72,4 @@ At the very beginning, you will receive `4` Popups. You can safely click `OK` on
 If you do not see this window, the patching process has failed. Check the Unity Console for more information.
 :::
 
-Now that you Unity Project is successfully patched, we recommend adding [the REPOLib-Sdk](./sdk/start.md) to your project workflow to make the Workflow easier.
+Now that you Unity Project is successfully patched, we recommend adding [the REPOLib-Sdk](./repolib/sdk/start.md) to your project workflow to make the Workflow easier.
