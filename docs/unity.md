@@ -1,10 +1,12 @@
 # R.E.P.O. Unity Project Setup
 
-A complete guide to developing Unity-based mods for R.E.P.O.
+A guide for setting up your Unity Project to create mods for R.E.P.O.
 
-This Unity workflow streamlines custom content creation, primarily by utilizing **REPOLib**—a framework designed to let you build mods entirely without writing code. 
+This Unity workflow streamlines custom content creation.\
+By combining the **REPOLib-Sdk** Unity Editor package with the core **REPOLib** DLL, you can build mods entirely without writing code.
 
-While REPOLib isn't strictly mandatory, it is highly recommended, especially if you are new to the R.E.P.O. modding scene. For experienced developers, REPOLib is fully extensible, meaning you can still seamlessly integrate your own custom C# scripts alongside it.
+While REPOLib isn't strictly mandatory, it is *highly* recommended, **especially** if you are new to the R.E.P.O. modding scene.\
+For experienced developers, REPOLib is fully extensible, meaning you can still seamlessly integrate your own custom C# scripts alongside it.
 
 ::: info NOTE
 The Unity workflow is primarly needed for creating Enemies, Levels, Valuables and Items!
