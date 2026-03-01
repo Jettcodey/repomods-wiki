@@ -1,9 +1,14 @@
 # R.E.P.O. Unity Project Setup
 
-How to develop Unity based mods for R.E.P.O.
+A complete guide to developing Unity-based mods for R.E.P.O.
 
-The Unity workflow is used to create content for REPOLib without writing code. However, custom scripts can be added.
-This is mainly needed for creating Enemies, Levels, Valuables and Items!
+This Unity workflow streamlines custom content creation, primarily by utilizing **REPOLib**—a framework designed to let you build mods entirely without writing code. 
+
+While REPOLib isn't strictly mandatory, it is highly recommended, especially if you are new to the R.E.P.O. modding scene. For experienced developers, REPOLib is fully extensible, meaning you can still seamlessly integrate your own custom C# scripts alongside it.
+
+::: info NOTE
+The Unity workflow is primarly needed for creating Enemies, Levels, Valuables and Items!
+:::
 
 ## Setup the Unity Editor
 
@@ -14,11 +19,16 @@ This is mainly needed for creating Enemies, Levels, Valuables and Items!
 
 ## Unity Project Setup
 
-1. In Unity at the Menubar go to **`Window > Package Manager`**.
-2. Click the `+` button in the top left and choose **`Add package from git URL`**.
-  ![Screenshot](/unity/0.png)
-3. Paste all of the following Unity Packages one after another here:
-  ![Screenshot](/unity/1.png)
+1. Create a new Unity project with the following configuration (See image below):
+    * **Editor Version: `2022.3.62f3`**
+    * **Project Location:** Local Project
+    * **Template:** 3D (Built-In Render Pipeline)
+    ![Screenshot](/unity/0.png)
+2. In Unity at the Menubar go to **`Window > Package Manager`**.
+3. Click the **`+`** button in the top left and choose **`Add package from git URL`**.
+    ![Screenshot](/unity/1.png)
+4. Paste all of the following Unity Packages one after another here:
+    ![Screenshot](/unity/2.png)
 
   - **Unity Project Patcher:** Generates a Unity project from a game build so the game can be played in the editor.
     ```bash
@@ -39,25 +49,25 @@ This is mainly needed for creating Enemies, Levels, Valuables and Items!
 
 1. After successfully adding the three packages above, navigate to the Unity menu bar and click on **`Tools > Unity Project Patcher > Configs > UPPatcherUserSettings`**.
     
-    ![Screenshot](/unity/2.png)
+    ![Screenshot](/unity/3.png)
 
 2. You will now see new options in the **Inspector** panel. Leave all the pre-filled fields as they are and only add the games folder path.
     
-    ![Screenshot](/unity/3.png)
     ![Screenshot](/unity/4.png)
     ![Screenshot](/unity/5.png)
+    ![Screenshot](/unity/6.png)
 
 3. Next, return to the Unity menu bar and click on **`Tools > Unity Project Patcher > Open Window`**.
     
-    ![Screenshot](/unity/6.png)
+    ![Screenshot](/unity/7.png)
 
 4. In the newly opened **`UPPatcher - RepoWrapper`** window, click on **`Enable BepInEx`** and wait for the process to finish.
     
-    ![Screenshot](/unity/7.png)
+    ![Screenshot](/unity/8.png)
 
 5. Once complete, click on **`Run Patcher`** to begin patching the project.
     
-    ![Screenshot](/unity/8.png)
+    ![Screenshot](/unity/9.png)
     
 ::: info NOTE
 **This process WILL take a while and will restart the `Unity Editor` about 4-6 times.\
@@ -66,9 +76,9 @@ At the very beginning, you will receive `4` Popups. You can safely click `OK` on
 
 6. After the Editor restarts for the final time, a confirmation window will appear indicating the project has been successfully patched. Click **`OK`**.
     
-    ![Screenshot](/unity/9.png)
+    ![Screenshot](/unity/10.png)
 
-::: tip Troubleshooting
+::: warning Troubleshooting
 If you do not see this window, the patching process has failed. Check the Unity Console for more information.
 :::
 
