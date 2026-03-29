@@ -93,6 +93,9 @@ export default defineConfig({
 			collapsed: true,
 			items: [
 			  { text: "Overview", link: "/apis/menulib/overview.md" },
+			  { text: "Getting Started", link: "/apis/menulib/start.md"},
+			  { text: "UI Elements", link: "/apis/menulib/elements.md" },
+			  { text: "Custom Pages", link: "/apis/menulib/custom-pages.md" },
 			],
 		  },
 		],
