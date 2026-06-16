@@ -9,12 +9,11 @@ If not, first follow the guide in [Unity Project Setup](../../../unity.md).
 
 1. In the Unity menu bar, go to **`Window > Package Manager`**.
 2. Click the **`+`** button in the top-left corner and choose **`Add package from git URL`**.
-  ![Screenshot](/unity/1.png)
-
-	- **REPOLib-Sdk:** Editor tools that streamline REPOLib content creation and export.
-	  ```bash
-	  https://github.com/ZehsTeam/REPOLib-Sdk.git
-	  ```
+   ![Screenshot](/unity/1.png)
+   - **REPOLib-Sdk:** Editor tools that streamline REPOLib content creation and export.
+     ```bash
+     https://github.com/ZehsTeam/REPOLib-Sdk.git
+     ```
 
 ::: tip
 To update the **REPOLib-Sdk**, open the Package Manager, select the `REPOLib-Sdk` package in the list, and click **Update**.
@@ -25,12 +24,18 @@ After the REPOLib-Sdk package finishes installing, you need to add the missing R
 3. Download **[REPOLib.dll](https://thunderstore.io/c/repo/p/Zehs/REPOLib/)** from Thunderstore.
 4. Extract the downloaded archive.
 5. Copy or drag-and-drop the `REPOLib.dll` file into any location within your project's `Assets` folder.
-	
-	![Screenshot](/repolib/sdk/start/0.png)
+
+   ![Screenshot](/repolib/sdk/start/0.png)
 
 6. To verify the installation, right-click inside the Project window. You should see a new sub-menu option: **`Create > REPOLib`**.
-	
-	![Screenshot](/repolib/sdk/start/1.png)
+
+   ![Screenshot](/repolib/sdk/start/1.png)
+
+::: warning
+If you have errors for missing references to Assembly-CSharp-firstpass.dll, select `REPOLib.dll` in the project window, then uncheck `Validate References` in the inspector:
+
+![Screenshot](/repolib/sdk/start/2.png)
+:::
 
 ::: tip
 To update **REPOLib** in the future, simply replace the existing `.dll` file with the newer version.
